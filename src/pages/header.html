@@ -11,6 +11,23 @@
 
             One tag without supplying data
             \{{newLink}}
+
+            <h1>Comments</h1>
+
+            <div id="comments">
+                \{{#each comments}}
+                <h2><a href="\{{id}}">\{{title}}</a></h2>
+                <div>\{{body}}</div>
+                \{{/each}}
+            </div>
+
+            <div id="comments">
+                \{{#if title}}
+                    <h2>Print me </h2>>
+                \{{/if}}
+            </div>
+
+
         </columns>
     </row>
 </container>
