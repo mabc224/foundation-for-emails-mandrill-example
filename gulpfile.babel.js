@@ -61,7 +61,7 @@ function pages() {
       data: 'src/data/'
     }))
     .pipe(inky())
-  .pipe(unescapeHtml())
+  // .pipe(unescapeHtml())
     .pipe(gulp.dest('dist'));
 }
 
