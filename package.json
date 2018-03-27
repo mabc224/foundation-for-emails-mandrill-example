@@ -14,7 +14,10 @@
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
   "dependencies": {
-    "foundation-emails": "^2.2.1"
+    "foundation-emails": "^2.2.1",
+    "gulp-unescape-html": "^1.0.2",
+    "he": "^1.1.1",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",
