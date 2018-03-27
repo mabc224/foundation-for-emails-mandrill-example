@@ -11,8 +11,6 @@ import siphon   from 'siphon-media-query';
 import path     from 'path';
 import merge    from 'merge-stream';
 import beep     from 'beepbeep';
-import colors   from 'colors';
-import unescapeHtml    from 'gulp-unescape-html';
 
 const $ = plugins();
 
@@ -61,7 +59,6 @@ function pages() {
       data: 'src/data/'
     }))
     .pipe(inky())
-  // .pipe(unescapeHtml())
     .pipe(gulp.dest('dist'));
 }
 
