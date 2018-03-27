@@ -1,4 +1,5 @@
 {
   "link": "{{link}}",
-  "logo": "{{email}}"
+  "logo": "{{email}}",
+  "condition": "{{#each items}}<li>{{agree_button}}</li>{{/each}}"
 }
